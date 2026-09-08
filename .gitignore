@@ -1,0 +1,13 @@
+node_modules/
+.env
+auth_session/
+data/*.json
+!data/.gitkeep
+*.log
+
+# Perfiles de personalidad personalizados (futuro multi-usuario):
+# se versiona el "default" como plantilla, pero no perfiles con datos reales.
+config/persona.*.json
+!config/persona.default.json
+.env0^C
+.env.*
